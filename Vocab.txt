@@ -1,0 +1,27 @@
+semantics:
+  the study of meanings in a language:
+  Syntax describes the rules by which words can be combined into sentences, while semantics describes what they mean.
+
+salvation:
+  (a way of) being saved from danger, loss, or harm:
+  After the diagnosis, getting to know Mary was his salvation.
+  a marriage beyond salvation
+
+  In the Christian religion, salvation of a person or their spirit is the state of being saved from evil and its effects by the death of Jesus on a cross:
+  The Gospel message is one of personal salvation.
+
+  something that prevents danger, loss, or harm:
+    That blanket was my salvation when my car broke down in the snow.
+
+  In some religions, salvation is the state of complete belief in God that will save those who believe from the punishment of God for evil or immoral acts.
+
+rebar:
+  steel in the form of bars or a mesh (= wires that cross over each other), put inside concrete to make it stronger:
+  The concrete is reinforced with steel rebar.
+
+  Inspectors surveyed both levels of the structure, looking for exposed rebar, loose bits of concrete, or cracks.
+
+  Fewer examples
+  Chunks of concrete are missing in spots, exposing rebar.
+  The earthquakes leveled concrete and rebar.
+  I saw rusted rebar coming through the concrete.
