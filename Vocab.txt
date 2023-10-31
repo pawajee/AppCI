@@ -66,5 +66,12 @@ Sidelong look:
     He gave her a sidelong glance.
     He glanced at her sidelong and smiled.
 
+infarction (spinal infarction):
+  obstruction of the blood supply to an organ or region of tissue, typically by a thrombus or embolus, causing local death of the tissue.
+  the process in which tissue dies because something has blocked its blood supply, or an occasion on which this happens:
+    A myocardial infarction happens when the blood flow to a part of the heart is blocked for a long enough time that part of the heart muscle is damaged.
+
+A freak accident:
+  An incident, especially one that is harmful, occurring under highly unusual and unlikely circumstances.
 
 
