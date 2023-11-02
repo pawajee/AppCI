@@ -209,3 +209,160 @@ Sprightly:
   1  SPRIGHTLY [Adjective]شگُفتہ مزاج ۔ جوشیلا ۔ ہشاش بشاش ۔ خُوش مزاجی سے ۔ زندہ دلانہ پھُرتی سے  
   2  SPRIGHTLY [Adjective]بشاش ، چُلبلا ، شوخ ، زندہ دل ۔  
   3  SPRIGHTLY [Adjective]زندہ دل ۔ خوش طبع ۔ تیز ۔ چست ۔ 
+
+Cost:
+  to cause or require the expenditure, loss, or sacrifice (of)
+    the accident cost him dearly
+  If an event or mistake costs you something, you lose that thing as the result of it.
+    ...a six-year-old boy whose life was saved by an operation that cost him his sight.
+
+  Your costs are the total amount of money that you must spend on running your home or business.
+    Costs have been cut by 30 to 50 percent. 
+
+  If someone is ordered by a court of law to pay costs, they have to pay a sum of money toward the expenses of a court case they are involved in.
+    He was jailed for 18 months and ordered to pay $550 costs.
+
+  If something is sold at cost, it is sold for the same price as it cost the seller to buy it.
+    ...a store that provided cigarettes and candy bars at cost.
+
+  The cost of something is the loss, damage, or injury that is involved in trying to achieve it.
+    In March Mr. Salinas shut down the city's oil refinery at a cost of $500 million and 5,000 jobs.
+
+Overhang:
+  hang or extend outward over.
+    "a concrete path overhung by trees"
+    overhung by trees
+
+  An overhanging eave is the edge of a roof, protruding outwards from the side of the building, generally to provide weather protection.
+
+Stationary:
+  not moving or not intended to be moved.
+    "a car collided with a stationary vehicle"
+    Similar: motionless, parked, halted, stopped, immobilized, immobile, unmoving, still, static, stock-still, at a standstill, at rest, not moving, like a statue, rooted to the spot, unstirring, frozen, inactive, inert, lifeless
+
+(of a planet) having no apparent motion in longitude.
+  not changing in quantity or condition.
+  "a stationary population"
+  Similar: unchanging, unvarying, invariable, constant, consistent, uniform, unchanged, changeless, fixed, stable, steady, undeviating
+
+Buffet (verb: Buf-Fet, noun: Boofey):
+
+  to hit something or someone repeatedly and, usually, hard:
+    Many fierce storms had buffeted the coast before, but this one was worse than usual.
+
+  (of wind, rain, etc.) to hit something repeatedly and with great force:
+  The little boat was buffeted mercilessly by the waves.
+
+  a meal where people serve themselves different types of food:
+    Are you having a sit-down meal or a buffet at the wedding?
+  a meal where people serve themselves food that is arranged on a table:
+    Will it be a buffet or a sit-down meal?
+
+  a restaurant in a station, where food and drinks can be bought and eaten
+
+Split:
+ To LEAVE:
+  split the party
+  split town
+
+Tithe:
+  1  TITHE [Adjective]فصل ۔ 
+  2  TITHE [Verb]عُشر لینا ۔ دسواں حصہ لینا ۔ عُشر ادا کرنا ۔  
+  3  TITHE [Noun]دسواں حصہ ۔ دس حصوں میں سے ایک ۔ 
+  4  TITHE []دسواں حصہ ۔ 
+  5  TITHE [Noun]دسواں حصہ ، دس حصوں می سے ایک ، دسواں حصہ لینا ، عُشر ادا کرنا ۔  
+
+Tithing:
+  1  TITHING [Noun]عُشر کی وصولی ۔ 
+  2  TITHING [Noun]عُشر ۔ انتظامی علاقہ جو پہلے صرف دس گھرانوں پر مشتمل تھا ۔  
+  3  TITHING MAN [Noun]عشر وصول کرنے والا ۔ عامل عُشر ۔  
+  4  TITHINGMAN [Noun](تاریخ) میر محلہ۔ (۲) ادنی سپاہی ۔ کم رُتبہ سپاہی ۔  
+
+Bequeath:
+
+  1  BEQUEATH [Verb]میراث کے طور پر چھوڑنا ۔ 
+  2  BEQUEATH [Verb]دے جانا ۔ پيچھے چھوڑنا ۔ وَصِيَت کے طَور پَر دينا ۔  
+  3  BEQUEATH []وصیت کرنا ۔ 
+  4  BEQUEATH []وصیت کرنا ۔ 
+  5  BEQUEATH []ورثہ ملنا ۔ 
+
+Modus Operandi:
+  A modus operandi is your usual way of doing things. If your modus operandi is to pretend to have no money to get your friends to buy your ice cream, they already know what you are about to say.
+  A characteristic way of doing something can be described with the Latin phrase modus operandi, like a friend whose modus operandi is to get rides instead of taking the bus. Your usual method of working is also a modus operandi, like your habit of waiting to study until the night before a test. The police often use the term modus operandi, or M.O., to mean the recognizable methods of a specific criminal.
+  noun an unvarying or habitual method or procedure
+  
+  synonyms:routine
+  1  MODUS [Noun]طریقہ ۔ طرز ۔ دہ یکی کے بجائے نقد ادائی ۔ 
+  2  MODUS AGCNDI [Noun]طریقہٴ عمل ۔ طرز عمل ۔ 
+  3  MODUS OPERANDI [Noun]اندازِ عمل ۔ ڈھنگ ۔ طریقہ کار ۔ طرزِ عمل 
+  4  MODUS OPERANDI []ضابطہ کار ۔ 
+  5  MODUS VIVENDI [Noun](امور متنازعہ کا ) عارضی تصفیہ ۔ (معاملات زیر تحقیقات کا ) بالفعل تصفیہ ۔ موقّت تصفیہ ۔ 
+
+COUNTENANCE:
+  1  COUNTENANCE [Verb]منظوری دینا ۔ جائز رکھنا ۔ 
+  2  COUNTENANCE []مدد کرنا ۔ 
+  3  COUNTENANCE [Noun]چہرہ بُشرہ ۔ صورت ۔ شکل ۔ حلیہ ۔ حمایت ۔  
+  4  COUNTENANCED [Adjective]خاص طرح کا چہرہ رکھنے والا ۔ 
+  5  COUNTENANCED []مدد کی ۔ 
+
+filette:
+  a little girl
+  Noun. fillette f (plural fillettes) a little girl. a little daughter.
+Gerret:
+  
+  a top-floor or attic room, especially a small dismal one (traditionally inhabited by an artist).
+    "the solitary genius starving in a cold garret"
+    At length he discovered her in a miserable garret, earning a bare subsistence by plaiting straw.
+Agonistic:
+
+  relating to fighting or aggression (= spoken or physical behavior that is threatening or involves harm to someone or something):
+    He published a study of agonistic behavior in freshwater crayfish.
+  relating to an agonist (= a muscle that is pulled in the opposite direction by another muscle):
+    agonistic muscles
+
+  1  AGONISTIC [Adjective]مجاد لاتی ۔ مُتخالِف ۔ بحثم بحث سے تعلق رکھنے والا ۔ 
+  2  AGONISTIC [Adjective]ورزشی ۔ کسرتی ۔ مقابلہ جُو ۔  
+  3  AGONISTIC BEHAVIOUR [Adjective]اگنسٹک بی ہیویور ۔ نزاعی رویہ ۔ ایک ہی نوع کے ایک رکن کا اسی نوع کے دوسرے رکن کے لیے جارحانہ رویہ ۔ اس میں لڑائی شامل ہوتی یا صرف خوفزدہ کیا جاتا ہے ۔ 
+  4  AGONISTICAL [Adjective]مناظرانہ ۔ مناظر کے طور پر ۔ 
+  5  AGONISTICALLY [Adverb]مناظرانہ یا ہٹ دھرمی کے طور پر ۔ 
+
+
+Kinesthetic:
+  connected with the ability to know where the parts of your body are and how they are moving:
+    kinesthetic sensations
+    It was claimed there were three main learning styles: visual, auditory and kinesthetic.
+
+Sensationalized; 
+  sensationalizing; sensationalizes
+  To sensationalize is to exaggerate a story to make it more thrilling or alarming. Newspapers sometimes sensationalize a headline in order to sell more papers.
+  1  SENSATIONALIZE [Noun]ہیجان پھیلانا ۔ خوف پھیلانا ۔ ڈرانا ۔ خوف طاری کرنا ۔ خوف زدہ کرنا ۔
+
+Discrete:
+  careful and prudent in one's speech or actions, especially in order to keep something confidential or to avoid embarrassment.
+    "we made some discreet inquiries"
+      Similare: careful, circumspect, cautious, wary, chary, guarded, close-lipped, close-mouthed, tactful, diplomatic, considerate, politic, prudent, judicious, strategic, wise, sensible, 
+
+intentionally unobtrusive.
+  "a discreet cough"
+    Similar:, unobtrusive, inconspicuous, subtle, low-key, understated, subdued, muted, soft, restrained, unostentatious, downbeat, low-profile
+
+  1  DISCREET [Adjective]زيرک ۔ ہوشمند ۔ موقع شناس ۔ دور انديش  
+  2  DISCREET [Adjective]موقع محل دیکھ کر بات کہنے والا ، ہوشیار ، محتاط ۔ 
+  3  DISCREET [Adjective]زیرک ۔ ہوشمند ۔ موقع شناس ۔ 
+  4  DISCREET []موقع شناس ، ہوشمند ، عقلمندی ۔ 
+  5  DISCREET [Adjective]مُحتاط ۔ ہوشیار ۔ دُور اندیش ۔ پردہ پوش۔ 
+
+Discrete:
+  clearly separate or different in shape or form:
+  These small companies now have their own discrete identity.
+
+  Synonyms
+  independentseparate
+  1  DISCRETE [Adjective]الگ جدا ۔ 
+  2  DISCRETE [Verb]منفصل ، غیر ملتفی ۔ جدا ، علیحدہ 
+  3  DISCRETE [Adjective]علیحدہ ۔ الگ ۔ جُدا ۔ مجرَد ۔ غیر محفُوظ ۔ 
+  4  INDISCRETE [Adjective]جو براہ راست نہ ہو ۔ بالواسطہ ۔ جِس کے اجزا واضع نہ ہوں ۔  
+
+kinesthetic:
+relating to a person's awareness of the position and movement of the parts of the body by means of sensory organs (proprioceptors) in the muscles and joints.
+"kinesthetic learning through a physical activity"
