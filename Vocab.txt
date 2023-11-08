@@ -366,3 +366,134 @@ Discrete:
 kinesthetic:
 relating to a person's awareness of the position and movement of the parts of the body by means of sensory organs (proprioceptors) in the muscles and joints.
 "kinesthetic learning through a physical activity"
+
+
+Affliction:
+
+  1  AFFLICTION [Noun]بلا ۔ مصیبت ۔ دُکھ ۔ درد ۔ تکلیف ۔ 
+  2  AFFLICTION [Noun]دُکھ ۔ آزار ۔ بیماری ۔ اِس کا سبب ۔ ذریعہ ۔ 
+  3  AFFLICTION [Noun]مُصيبَت ۔ آفَت ۔ بِپتا ۔ دُکھ ۔ 
+  4  AFFLICTION [Noun]ایذا ۔ دُکھ ۔ تکلیف ۔ درد ۔ تشدد ۔ 
+  5  BREAD OF AFFLICTION [Noun]محنت کی روٹی ۔ مصیبت سے ۔ 
+
+Self-Deprecation:
+    modesty about or criticism of oneself.
+        "an artist with a penchant for wry self-deprecation"
+
+
+tempestuous:
+ -related: tempestuousness
+    If something such as a relationship or time is tempestuous, it is full of strong emotions:
+        They got divorced in 2010 after a tempestuous marriage.
+
+Discetion:
+
+    1  ABSOLUTE DISCRETION []مکمل صوابدید ۔  
+    2  ACCORDING TO DISCRETION []حسبِ مرضی ۔ 
+    3  AGE OF DISCRETION []سن تمیز ۔ سن شعور ۔ عمر میں فرق ۔ عمر میں تمیز کرنا ۔  
+    4  AT DISCRETION []کسی کے اندازے کے مطابق ۔ 
+    5  AT DISCRETION [Noun]حسبِ دل خواہ ۔ حسبِ منشا ۔  
+
+
+Irradiation:
+    IRRADIATION [Noun]شُعاع ریزی ۔ درخشندگی ۔ تابیدگی ۔ تابانی ۔ روشنی ۔ چمک ۔ 
+
+    1.  an irradiating or being irradiated; esp.,
+        a.  exposure to radiation
+        b.  emission of radiant energy
+    2.  irradiance (sense 2)
+    3.  Optics
+        the apparent enlargement of a brightly lighted object seen against a dark background
+
+Modernist:
+
+    1  MODERNIST [Noun]جِدَّت پسند ۔نئی روشنی کا شَخَص 
+    2  ULTRAMODERNIST [Noun]دورِ حاضَر کی جِدَّت سے بھی آگے نِکلا ہُوا شَخص ۔ جِدَّت پَسَندوں سے بھی آگے نِکلا ہُوا شَخص ۔ 
+
+RELIQUARY:
+	"the inner sanctuary where the reliquary was kep
+    
+    1  RELIQUARY [Noun]کوئی خانقاہ یا صندُوق ۔ صندُوقچہ تبرکات ۔ تبرکات محفُوظ کرنے کی جگہ 
+    2  RELIQUARY [Adjective]تبرکاتی ۔ تبرکات یا اس سے متعلق ۔ 
+    3  RELIQUARY [Noun, Adjective]تبرکات رکھنے کا صندوق ۔ آثار مفوظ رکھنے کا صندوق ۔ 
+
+ALTAR:
+    the part of the chancel of a church containing the high altar.
+    1  ALTAR [Noun]قُربان گاہ ۔ قُربانی کَرنے کی جَگَہ يا ميز ۔ جَہاں اللہ کی راہ ميں قُربانی کی جائے ۔ 
+    2  ALTAR []قربان گاہ ۔ 
+    3  ALTAR [Noun]قربان گاہ ۔ نذر نیاز چڑھانے کا چبوترہ ۔ 
+    4  ALTAR []شادی ۔ 
+    5  ALTAR [Noun]قربان گاہ ۔ عشائے قربانی کی میز ۔ جانور ذبح کرنے کی جگہ ۔  
+
+Turf:
+    the surface layer of land on which grass is growing, consisting of the grass and the soil in which its roots grow, or a piece of this that is cut from the ground and is usually rectangular
+    a subject in which a person or group has a lot of knowledge or influence:
+        Antiques are very much her turf.
+
+    the area that a group considers its own:
+        Judges feel that the courtroom is their private turf.
+        The gymnastics team won the championship on their home turf.
+    
+    to cover a piece of land with turf
+
+    a surface layer of land consisting of grass and the earth in which its roots grow:
+    Lush turf lined the river’s banks.
+
+    Turf is also ground cover that looks like grass:
+        artificial turf
+
+    the area that a person or group considers its own:
+        Judges feel that the courtroom is their private turf.
+        The fight over high-definition TV standards has been a turf war among the electronics, motion picture, and recording industries.
+
+    an area of activity in which a person or company has a lot of knowledge and experience and which they believe belongs to them:
+        By launching a line in beauty products they are challenging the bigger company on its own turf.
+        It was an unproductive meeting with everyone simply trying to defend their own turf.
+    come/go with the turf:
+        used to say that someone should accept something because it is a necessary part of what they are doing:
+            In this job customer complaints come with the turf.
+            Of the fierce media attention he says: 'It goes with the turf'.
+    on home turf:
+        in your own country, town, area, etc.:
+        Export figures are good, but the company is losing sales on home turf.
+
+Chancel:
+    
+    1  CHANCEL [Noun]گرجے کا صدر مقام۔ صدر کلیسا۔  
+    2  CHANCEL [Noun]انگریزی گرجا یا کلیسا کا مشرقی حصہ جہاں پادری کھڑا ہوتا ہے ۔ 
+
+Rapport:
+    1  EN RAPPORT [Adverb]متوافِق ۔ ہم آہنگ ۔ مربوط ۔ 
+    2  EN RAPPORT [Adverb]رابطہ سے ۔ تعلق سے ۔ رشتہ سے ۔ 
+    3  RAPPORT [Noun]رابطہ ۔ تعلق ۔ روحانی اتّصال ۔ جذباتی اتصال ۔ 
+    4  RAPPORT [Noun]مُناسبت ۔ نِسبت ۔ تَعلُق ۔ رابطہ ۔ ہم آہنگی ۔ میل جول ۔ واسطہ 
+
+Lay off:
+    discharge a worker because of economic conditions or shortage of work.
+        "the company has laid off 30 percent of its staff"
+    Similar:
+    dismiss, let go, discharge, give notice to, pay off, release, make redundant, sack, give someone the sack, fire, send packing, give someone the boot, give someone the bullet, give someone the push, boot out, give someone their cards, Opposite:
+     take on, hire
+    
+    2. INFORMAL
+    give up or stop doing something.
+        "I laid off smoking for seven years"
+    
+    Similar:
+    give up, stop, refrain from, abstain from, not continue, desist from, leave alone, cut out, quit, pack in, leave off, kick, give over, knock off
+    
+    Opposite:
+    start, take up
+    
+    3. SOCCER
+    pass the ball to a teammate.
+        "Jules laid the ball off to the striker"
+    4. paint the final layer on a wall or other surface.
+        "lay off the paint with very light brush strokes"
+    5. (of a bookmaker) insure against a loss resulting from a large bet by placing a similar bet with another bookmaker.
+        "the only way the dividends could possibly make sense was if the bookmaker had laid off the bet"
+crepuscular:
+(of animals) active or appearing at the time of day just before the sun goes down, or just after the sun rises, when the light is not bright:
+Deer are crepuscular, meaning that they are most active at dawn and at dusk.
+
+relating to or like the time of day just before the sun goes down, when the light is not bright
