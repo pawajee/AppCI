@@ -497,3 +497,13 @@ crepuscular:
 Deer are crepuscular, meaning that they are most active at dawn and at dusk.
 
 relating to or like the time of day just before the sun goes down, when the light is not bright
+
+	1  CREPUSCULAR [Adjective]جُھٹ پُٹے یا دُھند لکے کے متعلّق ۔ ٹمٹماتا ہوا ۔ اڑنے وال پتنگے ۔  
+	2  CREPUSCULAR [Adjective]دُھندلا ۔ نیم روشن ۔ جھٹ پٹا ۔ 
+	3  CREPUSCULAR [Adjective]کریپسکلر ۔ شفقی ۔ جھٹ پٹیا ۔ ایسے حیوان جو شام کے وقت یا صبح کاذب کے وقت فعال ہوتے ہیں ۔ جھٹ پٹیا یعنی نیم تاریکی میں نکلنے والے حیوان
+Carrion:
+	the decaying flesh of dead animals
+		a crow wheeled over the hills in search of carrion
+Baccalaureate:
+
+1  BACCALAUREATE [Noun]بی اے کی سَنَد ۔ جَلسَہ تَقسيم اسناد کا حِصَہ ۔ 
