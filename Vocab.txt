@@ -507,3 +507,52 @@ Carrion:
 Baccalaureate:
 
 1  BACCALAUREATE [Noun]بی اے کی سَنَد ۔ جَلسَہ تَقسيم اسناد کا حِصَہ ۔ 
+
+Retch:
+	to make the sound and action of vomiting, esp. when nothing is actually vomited
+
+	1  RETCH [Verb]اُبکائی آنا ۔ امتلا ہونا ۔ قے کرنے کے عمل میں مبتلا ہونا ۔  
+	2  RETCH [Verb]الٹی کرنا ۔  
+	3  RETCH [Noun, Verb]ابکائی لینا ۔ قے کرنا ۔ قے کرنے کی کوشش کرنا ۔ 
+	4  RETCH [Verb]اُبکائی آنا ۔ متلی کا ہونا ۔ 
+	5  RETCH [Noun]اُ
+deglutition:
+
+	1  DEGLUTITION [Noun]نِگَلنا ۔ نِگَلنے کا عمَل جو جُزوی طَور پر اِرادی اور جُزوی طَور پر غَیر اِرادی ہو  
+	2  DEGLUTITION [Noun]نگلنا ۔ اقلاع ۔ نگلنے کا عمل ۔ اِبتلاع ۔ نِگل لینا ۔ 
+	3  DEGLUTITION [Noun]نگلنے کا عمل ۔ 
+	4  DEGLUTITION [Verb]نگال ۔ نگلنے کا عمل ۔  
+	5  DEGLUTITION [Verb]نگلنے کا عمل ۔ 
+
+UNSCRUPULOUS:
+
+	1  UNSCRUPULOUS [Adjective]بِلا بس و پیش ۔ جِس کے کوئی اُصول نہ ہوں ۔ بے ایمان ۔ بے اصولا ۔  
+	2  UNSCRUPULOUS [Noun]بلا پس وپیش ، جس کے کوئی اصول نہ ہو ، بے ایمان ، بے اصولا ۔  
+	3  UNSCRUPULOUSLY [Adverb]بے ایمانی سے ۔ بے اصُولی سے ۔ 
+	4  UNSCRUPULOUSLY [Adverb]غیر محتاط طریقے سے ۔ بے ایمانی سے ۔ بے باکی سے ۔  
+	5  UNSCRUPULOUSNESS [Noun]بے احتیاطی ۔ بے ایمانی ۔ بے باکی ۔ بے ڈھب پن ۔  
+
+Pinnacle
+	the most successful or admired part of a system or achievement:
+	By the age of 32 she had reached the pinnacle of her career.
+	1  PINNACLE [Noun]کَنگرہ ۔ راس ۔ مینار ۔ کَلس ۔ کَنگورہ ۔ ایک اُنچی چوٹی  
+	2  PINNACLE [Verb]کنگورہ بنانا ۔ کنگورے یا کلس سے آراستہ کرنا ۔  
+	3  PINNACLE []چوٹی ، لنگرا ۔ 
+	4  PINNACLE [Verb]مینار ، کلس ، کنگرہ ، چوٹی ۔  
+
+Apathy:
+	behavior that shows no interest or energy and shows that someone is unwilling to take action, especially over something important:
+		widespread apathy among students
+		voter apathy
+
+Articular:
+	1  ARTICULAR [Latin]مُفَصّلی ۔ جوڑ سے مُتعَلِق  
+	2  ARTICULAR [Adjective]جوڑ کے متعلق ۔  
+	3  ARTICULAR [Noun]حواسِ مفاَصل ۔ جوڑوں سے متعلق حواس ۔ 
+	4  ARTICULAR AMNETIC []نسیان تلفظی  
+	5  ARTICULAR CAPSULE [Noun]جوڑوں کا کرکرا غلاف جو بعد میں کان کا اندرونی جوف بنتا ہے 
+Clammy:
+	
+	1  CLAMMY [Adjective]چپچپا ، چیپ دار ، لس لسا ، لیس دار ۔ 
+	2  CLAMMY []لیس دار گیلا ۔ 
+	3  CLAMMY [Adjective]نرم و مرطوب۔ لجلجا۔ چپچیا۔  
