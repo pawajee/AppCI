@@ -517,6 +517,7 @@ Retch:
 	4  RETCH [Verb]اُبکائی آنا ۔ متلی کا ہونا ۔ 
 	5  RETCH [Noun]اُ
 deglutition:
+The act or process of swallowing.
 
 	1  DEGLUTITION [Noun]نِگَلنا ۔ نِگَلنے کا عمَل جو جُزوی طَور پر اِرادی اور جُزوی طَور پر غَیر اِرادی ہو  
 	2  DEGLUTITION [Noun]نگلنا ۔ اقلاع ۔ نگلنے کا عمل ۔ اِبتلاع ۔ نِگل لینا ۔ 
@@ -534,11 +535,11 @@ UNSCRUPULOUS:
 
 Pinnacle
 	the most successful or admired part of a system or achievement:
-	By the age of 32 she had reached the pinnacle of her career.
-	1  PINNACLE [Noun]کَنگرہ ۔ راس ۔ مینار ۔ کَلس ۔ کَنگورہ ۔ ایک اُنچی چوٹی  
-	2  PINNACLE [Verb]کنگورہ بنانا ۔ کنگورے یا کلس سے آراستہ کرنا ۔  
-	3  PINNACLE []چوٹی ، لنگرا ۔ 
-	4  PINNACLE [Verb]مینار ، کلس ، کنگرہ ، چوٹی ۔  
+		By the age of 32 she had reached the pinnacle of her career.
+		1  PINNACLE [Noun]کَنگرہ ۔ راس ۔ مینار ۔ کَلس ۔ کَنگورہ ۔ ایک اُنچی چوٹی  
+		2  PINNACLE [Verb]کنگورہ بنانا ۔ کنگورے یا کلس سے آراستہ کرنا ۔  
+		3  PINNACLE []چوٹی ، لنگرا ۔ 
+		4  PINNACLE [Verb]مینار ، کلس ، کنگرہ ، چوٹی ۔  
 
 Apathy:
 	behavior that shows no interest or energy and shows that someone is unwilling to take action, especially over something important:
@@ -556,3 +557,174 @@ Clammy:
 	1  CLAMMY [Adjective]چپچپا ، چیپ دار ، لس لسا ، لیس دار ۔ 
 	2  CLAMMY []لیس دار گیلا ۔ 
 	3  CLAMMY [Adjective]نرم و مرطوب۔ لجلجا۔ چپچیا۔  
+Egregious:
+	extremely bad in a way that is very noticeable:
+	egregious error It was an egregious error for a statesman to show such ignorance.
+Flagrant:
+	(of a bad action, situation, person, etc.) shocking because of being so obvious:
+
+		a flagrant misuse of funds/privilege
+		a flagrant breach of trust
+		a flagrant disregard for the law
+		He flagrantly broke the law.
+Insinuation:
+	the action of suggesting, without being direct, that something unpleasant is true:
+		[ + that ] We resent these insinuations that we are not capable of leading the company forward.
+		I reject the insinuation behind your question.
+Insinuate:
+	to suggest, without being direct, that something unpleasant is true:
+		[ + (that) ] Are you insinuating (that) I'm losing my nerve?
+		What are you insinuating, Daniel?
+feed off:
+	to increase because of something, or to use something to succeed or get advantages:
+		Local suppliers feed off the region's car manufacturing industry.
+	1. Literally, to use someone or something as a source of sustenance.
+		The kittens still need to feed off their mother for a few more days.
+		The tribe primarily feeds off of nuts, berries, and tubers they forage in the forest.
+	2. By extension, to exploit someone or something for one's benefit or advantage.
+		These insurance companies are just trying to make money by feeding off our anxieties.
+		A con man feeds off of gullible simpletons who will fall for his tricks.
+	to eat something in particular customarily. (Of is usually retained before pronouns.) 
+		This creature feeds off fallen fruit. 
+		Mosquitoes seem to want to feed off of me!
+	To be nourished, sustained, or fueled by something: 
+		The microbes feed off the decaying seaweed. 
+		The politicians are feeding off of the public's fear.
+
+crepuscular:
+	relating to or like the time of day just before the sun goes down, when the light is not bright
+	(of animals) active or appearing at the time of day just before the sun goes down, or just after the sun rises, when the light is not bright:
+		Deer are crepuscular, meaning that they are most active at dawn and at dusk.
+Apathy:
+	behavior that shows no interest or energy and shows that someone is unwilling to take action, especially over something important:
+		widespread apathy among students
+		voter apathy
+	lack of interest, or the attitude of not caring resulting from it:
+		There is a growing sense of apathy among teens and a feeling that there are no opportunities, he said.
+	apathetic voters
+Glaring:
+	shining too brightly:
+		glaring light
+		glaring colors
+ARTICULAR:
+
+	1  ARTICULAR [Latin]مُفَصّلی ۔ جوڑ سے مُتعَلِق  
+	2  ARTICULAR [Adjective]جوڑ کے متعلق ۔  
+	3  ARTICULAR [Noun]حواسِ مفاَصل ۔ جوڑوں سے متعلق حواس ۔ 
+	4  ARTICULAR AMNETIC []نسیان تلفظی  
+	5  ARTICULAR CAPSULE [Noun]جوڑوں کا کرکرا غلاف جو بعد میں کان کا اندرونی جوف بنتا ہے
+
+Gross:
+	adj.
+	1. without or before deductions; total (opposed to net): gross earnings; gross sales.
+	2. flagrant and extreme; glaring: gross injustice.
+	3. unqualified; rank.
+	4. indecent, obscene, or vulgar: gross language.
+	5. lacking in refinement, good manners, education, etc.; unrefined.
+	6. extremely or excessively fat.
+	7. large, big, or bulky.
+	8. of or concerning only the broadest or most general considerations, aspects, etc.
+	9. Slang. extremely offensive or disgusting.
+	10. thick; dense; heavy: gross vegetation.
+	n.
+	11. a group of 12 dozen, or 144, things. Abbr.: gro.
+	12. total income, profits, etc., before any deductions (opposed to net).
+	v.t.
+	13. to have, make, or earn as a total before any deductions, as of taxes, expenses, etc.: The company grossed over three million dollars last year.
+	14. gross out, Slang. to disgust or offend, esp. by crude language or behavior.
+
+	1. flagrant, obvious, glaring, blatant, serious, shocking, rank, plain, sheer, utter, outrageous, manifest, shameful, downright, grievous, unqualified, heinous, egregious, unmitigated, arrant 
+		The company were found guilty of gross negligence.
+	2. vulgar, offensive, crude, rude, obscene, low, coarse, indecent, improper, unseemly, lewd, X-rated (informal), impure, smutty, ribald, indelicate 
+		That's a disgusting thing to say - you're so gross!
+	vulgar , not pure, not decent, not proper, not delicate
+
+	3. coarse, crass, tasteless, unsophisticated, ignorant, insensitive, callous, boorish, unfeeling, unrefined, uncultured, undiscriminating,
+		imperceptive He is a gross and boorish individual.
+	coarse not elegant,not  cultivated
+	4. obese, fat, overweight, great, big, large, heavy, massive, dense, bulky, hulking, corpulent, lumpish 
+		I've put on so much weight I look totally gross.
+	fat little, not small, thin, slim, delicate, petite, svelte
+
+	5. total, whole, entire, aggregate, before tax, 
+		before deductions Gross sales in June totalled 270 million.
+	total net
+Punt:
+	a long, narrow boat with a flat bottom and square ends, moved by a person standing at one end and pushing on the bottom of a river with a pole
+	
+	a way of kicking the ball in rugby or football, by dropping it from your hands and kicking it before it hits the ground, or a powerful kick in soccer that causes the ball to go a long way
+	
+	take a punt on something UK informal
+	 
+		to risk money by buying or supporting something, in the hope of making or winning more money:
+		It might be a good idea to take a punt on a few technology stocks.
+lager:
+	a type of beer that is pale in color and usually contains a lot of bubbles:
+		The first golden lager beer was created in what is now the Czech Republic.
+ 
+	a glass or container of this type of beer:
+		I'll have a lager.
+
+	A cold glass of lager would go well with this.
+	Lager beer is the traditional beer style of many countries.
+	I fetched another can of lager from the fridge.
+	They don't sell British beer at all, just Dutch and German lagers.
+	Lager beers come in all varieties of flavors, strengths, and colors.
+	He's had too many lagers.
+	Greasy food is exactly what you need on a Friday night, after a few lager beers at the bar.
+Draught:
+	the depth of water needed for a boat to be able to float:
+		A punt has a shallow draught.
+	a current of unpleasantly cold air blowing through a room
+
+Strait:
+	a narrow passage of water connecting two seas or two other large areas of water.
+		"the Strait of Gibraltar"
+	used in reference to a situation characterized by a specified degree of trouble or difficulty.
+		"the economy is in dire straits"
+ill:
+	He is terminally ill.
+
+Ambience:
+	I like the ambiance of the restaurant.
+Drink:
+	She was extremely drunk.
+Pivotal:
+	It was a pivotal moment.
+
+nearly finished:
+ 	is correct and usable in written English. You can use it when something is close to being done, but not quite finished.
+		I'm nearly finished with my project, I just need to tie up a few loose ends.
+Mundane:
+	lacking interest or excitement; dull.
+		"seeking a way out of his mundane, humdrum existence"
+	
+	of this earthly world rather than a heavenly or spiritual one.
+		"the boundaries of the mundane world"
+
+	1  MUNDANE []اراضی دنیاوی ۔ 
+	2  MUNDANE [Adjective]دنیا کا ۔ دنیاوی ۔ دنیوی ۔ 
+	3  MUNDANE [Adjective]دنیاوی ۔ دنیا کا یا اس سے تعلق رکھنے والا ۔ ارضی ۔ عام ۔ بے شان و شوکت ۔  
+	4  MUNDANE [Noun]دنیاوی ، اراضی ، دنیا کے متعلق ۔ 
+	5  MUNDANE EXISTENCE [Noun]دنیاوی وجود ۔ عرضی وجود ۔  
+
+Ladle:
+	a large long-handled spoon with a cup-shaped bowl, used for serving soup, stew, or sauce.
+		"she dipped the ladle into the casserole dish"
+	serve (soup, stew, or sauce) with a ladle.
+		"she ladled out onion soup"
+Diligence:
+	the quality of working carefully and with a lot of effort:
+		She hoped that her diligence would be noticed at work.
+		The exhibition has been researched with extraordinary diligence.
+Due Diligence:
+	reasonable steps taken by a person in order to satisfy a legal requirement, especially in buying or selling something.
+		a comprehensive appraisal of a business undertaken by a prospective buyer, especially to establish its assets and liabilities and evaluate its commercial potential.
+
+Petrichor:
+	the smell produced when rain falls on dry ground, usually experienced as being pleasant
+	a pleasant smell that frequently accompanies the first rain after a long period of warm, dry weather.
+		"other than the petrichor emanating from the rapidly drying grass, there was not a trace of evidence that it had rained at all"
+
+Give fine:
+	The judge gave him a fine of $400 for speeding.
