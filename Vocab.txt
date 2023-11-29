@@ -557,9 +557,10 @@ Clammy:
 	1  CLAMMY [Adjective]چپچپا ، چیپ دار ، لس لسا ، لیس دار ۔ 
 	2  CLAMMY []لیس دار گیلا ۔ 
 	3  CLAMMY [Adjective]نرم و مرطوب۔ لجلجا۔ چپچیا۔  
-Egregious:
+Egregious (egg-re-gee-us):
 	extremely bad in a way that is very noticeable:
 	egregious error It was an egregious error for a statesman to show such ignorance.
+
 Flagrant:
 	(of a bad action, situation, person, etc.) shocking because of being so obvious:
 
@@ -792,7 +793,6 @@ go to the stake for/over - (be prepared to) go to the stake for/over something:
 	idiom British : to defend (something or someone) even though one's actions or statements may cause one trouble or harm
 		She's willing to go to the stake for her beliefs.
 	
-	
 		British English to be willing to do anything to protect or defend an idea or belief
 		 That’s my opinion, but I wouldn’t go to the stake for it.
 Take to:
@@ -808,4 +808,115 @@ Take to:
 		to take to the hills, take to one's bed with the flu
 	b.  to travel on or proceed by
 		to take to the open road
+Stupefaction (stoo-pay-faction):
 
+the condition of being unable to think clearly, usually because someone is extremely tired or bored, or has taken drugs:
+	Because of the drugs, he was in a state of stupefaction by the time we found him.
+	He was intoxicated to the point of stupefaction.
+ 
+the condition of being very surprised or shocked:
+	He stepped back, a look of stupefaction on his face.
+	My initial reaction was one of stupefaction.
+
+take for:
+	To think someone or something is someone or something else
+		I'm sorry I called you the wrong name—I took you for one of your coworkers. 
+		Do you take me for a fool?	
+	1. Lit. to escort someone to and through some activities, such as a walk, a swim, a ride, etc.
+		Can I take you for a ride? He took me for a walk in the park, and then we came home.
+	2. Inf. to cheat someone by a certain amount of money. 
+		That crook took me for a hundred bucks. How much did he take you for?
+
+	1. To escort someone (to some place) in order to partake in some activity.
+		I'm taking the kids for a bike ride this afternoon.
+		He wants to take his family for a trip across the Midwest.
+
+	2. To escort someone (to some place) in order to treat them to something.
+		The boss said he would take the entire office for pizza at the end of the week.
+		After the movie, I'd like to take everyone for ice cream.
+
+	3. To bring someone or something (to some place) in order to go through some process.
+		I have to take my car for its annual service this weekend.
+		I'm taking Sarah for her doctor's appointment later.
+
+	4. To mistake someone or something for a different person or thing.
+		Everyone takes me for my brother on the phone because of how alike we sound.
+		I took the bird for an eagle, but it was actually a hawk.
+		I at first took her silence as a rejection of my proposal, but she told me later that she was so taken aback that she couldn't respond right away.
+
+	5. To believe or assume, especially mistakenly, that someone or something is a certain way or in a certain condition.
+		The regiment took the soldier for dead and left him behind.
+		Never take for granted the security of your position in a company.
+
+	6. To regard someone or something as a particular kind of person or thing, especially mistakenly.
+		You must take me for a fool if you think I would lend you such a huge amount of money.
+		I wouldn't have taken him for the type of person who would begrudge his friend's success.
+
+	7. To cheat, swindle, or con someone or something for some amount of money.
+		Between all the hidden fees, taxes, and surcharges, they took me for over $500!
+		All in all, he took the company for nearly $2 million.
+
+	To accept some amount of money for the purchase of something.
+		I'm not willing to take less than $10,000 for the car.
+		Her motorcycle is really cool. I wonder how much she'd take for it.
+
+	1. To presume or believe that one is a certain type of person.
+		Huh. I didn't take you for the lying type.
+		I'd advise you not to take her for a fool. She may play dumb, but she's very crafty.
+	2. To swindle, cheat, or defraud someone out of something, especially some amount of money.
+		When all was said and done, that no-good lawyer took us for thousands of dollars.
+	3. To bring someone (to some location) in order to treat them to something.
+		The boss said he would take us for pizza at the end of the week.
+		Let's take the kids for ice cream tomorrow.
+Spar (spar):
+	to argue:
+		Frank and Jill always spar with each other at meetings, but really they're good friends.
+
+	a strong pole, especially one used as a mast to hold the sail on a ship
+
+	to practice the sport of boxing without hitting hard:
+		Dexter sparred with his partner for about an hour.
+	 
+	To spar also means to argue:
+		State officials are still sparring over funding.
+
+	noun: spar; plural noun: spars
+	a thick, strong pole such as is used for a mast or yard on a ship.
+		the main longitudinal beam of an airplane wing.
+
+	verb: spar; 3rd person present: spars; past tense: sparred; past participle: sparred; gerund or present participle: sparring
+	make the motions of boxing without landing heavy blows, as a form of training.
+		"one contestant broke his nose while sparring"
+		engage in argument, typically of a kind that is prolonged or repeated but not violent.
+		"mother and daughter spar regularly over drink, drugs, and career"
+	Similar: quarrel, argue, have a row/fight, row, fight, disagree, fail to agree, differ, be at odds, have a misunderstanding, be at variance, fall out, dispute, squabble, brawl, bicker, chop logic, wrangle, bandy words, cross swords, lock horns, be at each other's throats, be at loggerheads, scrap, argufy, spat, have a spat, altercate
+	(of a gamecock) fight with the feet or spurs.
+	
+	noun: spar; plural noun: spars
+	1. a period or bout of sparring.
+	2. INFORMAL a close friend.
+		"Buster was his spar and he didn't want to let him down"
+Porwess:
+	great ability or skill:
+		athletic/sportsprowess
+		He's always boasting about his sexual prowess.
+
+Spur:
+	to encourage an activity or development or make it happen faster:
+		Rising consumer sales have the effect of spurring the economy to faster growth.
+		Spurred (on) by her early success, she went on to write four more novels in rapid succession.
+
+	to push spurs into the side of a horse to make it go faster:
+		He spurred his horse on and shouted "Faster! Faste
+	
+	a high piece of land that sticks out from a mountain or a group of mountains
+
+	something that acts as an encouragement for an activity or development:
+		The manager said that the team's win on Saturday would be a spur to even greater effort this season.
+	to encourage an activity or development, or to cause something to develop faster:
+		The huge new factory spurred economic growth in the entire region.
+	
+	a sharp metal object sticking out of a U-shaped device that is attached to the heel of a boot and used by a rider to encourage a horse to go faster
+
+	something that encourages an activity or development or makes it develop faster:
+		The team's win on Saturday will be a spur to even greater effort this season.
