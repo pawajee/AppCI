@@ -929,3 +929,65 @@ Bout (Ba-oot):
 Go Rogue:
 	behave erratically or dangerously, especially by disregarding the rules or the usual way of doing something.
 		"leaders going rogue at press conferences can mean you have a serious problem"
+
+CONVIVIAL:
+	1  CONVIVIAL [Adjective]جشن کے لیے موزوں ، دعوتی ، ضیافتی ۔ 
+	2  CONVIVIAL [Adjective]دعوتی ۔ ضیافتی ۔ جشنی ۔  
+	3  CONVIVIALIST [Noun]جشن دوست ۔ یار باشی کا دلدادہ ۔ 
+	4  CONVIVIALITY [Noun]یار باشی ۔ زندہ دلی ۔ جشن سازی ۔  
+	5  CONVIVIALLY [Adverb]یار باشی سے ۔ زندہ دلی سے ۔ خوش مشربی سے ۔ 
+
+ERRATIC:
+	moving or behaving in a way that is not regular, certain, or expected:
+		He drove in an erratic course down the road.
+		She can be very erratic; one day she is friendly and the next she'll hardly speak to you.
+	changing suddenly and unexpectedly:
+		an erratic schedule
+
+	something that is erratic is not regular, certain, or organized in its movement or behaviour:
+		The erratic behaviour of the stock market is making investors nervous.
+		Stocks closed up slightly after an erratic day of trading.
+
+	erratically - adverb
+		The stock market has been behaving erratically.
+
+	1  ERRATIC []متلون مزاج ۔ 
+	2  ERRATIC [Adjective]سیلانی ۔ سر گرداں ۔ آوارہ گرد ۔ آوارہ ۔ گمراہ ۔ ڈانواڈول ۔ 
+	3  ERRATIC [Adjective]سرگردان ، خیالات میں غیر مستقل ، بہکا ہوا ، بھٹکا ہُوا ۔  
+	4  ERRATIC BLOCK [Noun]وہ چٹان جو اپنے اصلی مقام سے طبعی قوتوں کے ذریعہ منتقل ہو جاۓ ۔ 
+	5  ERRATIC BLOCKS [Noun, Adjective]زمین کے متفرق تودے جو گردوپیش کی تہوں سے الگ ہو ں ۔ 
+
+Banquet:
+	a large formal meal for many people, often followed by speeches in honor of someone:
+		Medieval banquets are held in the castle once a month.
+		It was the organization's annual black-tie awards banquet at a fancy New York City hotel.
+
+	something that brings a lot of pleasure or benefit, often of a particular kind or for a particular type of person:
+		Her shows are banquets for the eyes and ears.
+		The Woodstock festival was a musical banquet for the age.
+		The performers lay out before us a banquet of delights.
+	 Fewer examples
+		The President's visit to the UK will include a state banquet at Buckingham Palace.
+		Truffles were served by the Egyptian pharaohs at their royal banquets.
+		They held a farewell banquet for him and toasted his health.
+		Books are a banquet for the mind.
+		The result of his actions was a banquet for lawyers.
+		The production team creates a brilliant visual banquet.
+		He secretly hoped the luncheon might develop into a banquet of deliciously bad behavior.
+
+	a large formal meal for many people, often followed by speeches in honor of someone:
+		Ed Carey will receive the award at the organization’s annual banquet.
+	1  BANQUET [Noun]ضَيافَت ۔ پُر تَکلُف دَعوَت ۔ 
+	2  BANQUET [Verb]ضیافت دینا ۔ دعوت دینا ۔ میخواری کی دعوت دینا ۔ 
+	3  BANQUET [Noun]شاہی ضیافت ۔ اعزازی دعوت ۔ 
+	4  BANQUET []ضیافت ۔ 
+	5  BANQUETED []ضیافت کی ۔ 
+
+Grandly:
+	in a way suggesting that something or someone has great importance:
+		She announced grandly that she was spending Christmas in the Caribbean.
+	in a way that attracts admiration and attention:
+		Their house is very grandly furnished.
+
+	1  GRANDLY [Adverb]شان و شوکت سے ۔ عظمت سے ۔ 
+	2  GRANDLY [Adverb]شان و شوکت سے ۔ عظمت سے ۔ وُسعت سے ۔  
