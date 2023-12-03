@@ -5,11 +5,11 @@ semantics:
 
 salvation:
   (a way of) being saved from danger, loss, or harm:
-    After the diagnosis, getting to know Mary was his salvation.
-    a marriage beyond salvation
+	    After the diagnosis, getting to know Mary was his salvation.
+	    a marriage beyond salvation
 
   In the Christian religion, salvation of a person or their spirit is the state of being saved from evil and its effects by the death of Jesus on a cross:
-  The Gospel message is one of personal salvation.
+ 	 The Gospel message is one of personal salvation.
 
   something that prevents danger, loss, or harm:
     That blanket was my salvation when my car broke down in the snow.
@@ -809,14 +809,13 @@ Take to:
 	b.  to travel on or proceed by
 		to take to the open road
 Stupefaction (stoo-pay-faction):
-
-the condition of being unable to think clearly, usually because someone is extremely tired or bored, or has taken drugs:
-	Because of the drugs, he was in a state of stupefaction by the time we found him.
-	He was intoxicated to the point of stupefaction.
- 
-the condition of being very surprised or shocked:
-	He stepped back, a look of stupefaction on his face.
-	My initial reaction was one of stupefaction.
+	the condition of being unable to think clearly, usually because someone is extremely tired or bored, or has taken drugs:
+		Because of the drugs, he was in a state of stupefaction by the time we found him.
+		He was intoxicated to the point of stupefaction.
+	 
+	the condition of being very surprised or shocked:
+		He stepped back, a look of stupefaction on his face.
+		My initial reaction was one of stupefaction.
 
 take for:
 	To think someone or something is someone or something else
@@ -926,11 +925,20 @@ Bout (Ba-oot):
 		US - a bout with the flu
 	He suffered from periodic bouts of insanity.
 		a drinking bout (= short period of drinking a lot of alcohol)
+Rogue:
+	behaving in ways that are not expected or not normal, often in a way that causes damage:
+		a rogue state
+		rogue cells
 Go Rogue:
 	behave erratically or dangerously, especially by disregarding the rules or the usual way of doing something.
 		"leaders going rogue at press conferences can mean you have a serious problem"
 
 CONVIVIAL:
+	friendly and making you feel happy and welcome:
+		a convivial atmosphere/host
+	pleasant and friendly in manner or attitude:
+		The talks ended on a convivial note.
+
 	1  CONVIVIAL [Adjective]جشن کے لیے موزوں ، دعوتی ، ضیافتی ۔ 
 	2  CONVIVIAL [Adjective]دعوتی ۔ ضیافتی ۔ جشنی ۔  
 	3  CONVIVIALIST [Noun]جشن دوست ۔ یار باشی کا دلدادہ ۔ 
@@ -991,3 +999,45 @@ Grandly:
 
 	1  GRANDLY [Adverb]شان و شوکت سے ۔ عظمت سے ۔ 
 	2  GRANDLY [Adverb]شان و شوکت سے ۔ عظمت سے ۔ وُسعت سے ۔  
+sieve:
+	verb - put (a food substance or other material) through a sieve.
+		"sieve the flour and sugar together in a bowl"
+
+	noun - a utensil consisting of a wire or plastic mesh held in a frame, used for straining solids from liquids, for separating coarser from finer particles, or for reducing soft solids to a pulp.
+	"puree the potatoes through a sieve"
+
+	a tool consisting of a wood, plastic, or metal frame with a wire or plastic net attached to it. You use it either to separate solids from a liquid, or you rub larger solids through it to make them smaller:
+		Pour the sauce through a sieve to remove any lumps.
+
+	in hockey, a goaltender who allows a lot of goals:
+	They couldn't win a game with that sieve in the net for the first month of the season.
+
+	1  SIEVE []چکھنی ۔ 
+	2  SIEVE [Verb]چھلنی میں چھاننا ۔ چھان بین کرنا ۔ 
+	3  SIEVE [Noun]چھلنی ۔ غرپال ۔ بیٹ کا ہلکا ۔ چھاننا ۔  
+	4  SIEVE []چھلنی ۔ 
+	5  SIEVE []چھلنی جھرنا ۔ 
+
+Ewe:
+	a female sheep, especially an adult one:
+		ewe's milk
+
+Yew:
+	[ C or U ]
+	an evergreen tree (= one that never loses its leaves) with flat leaves like needles and small, red fruits :
+		In the middle of the churchyard stands an old yew.
+		Yew, box, or holly are suitable for hedges.
+		a yew tree
+
+	[ U ]
+	wood from the yew tree:
+		yew furniture
+		a bowl made from yew
+Pidgin:
+	Pidgin is a simple form of a language that speakers of a different language use to communicate. Pidgin is not anyone's first language.
+		He's at ease speaking pidgin with the factory workers and guys on the docks. 
+
+	If someone is speaking their own language simply or another language badly and is trying to communicate, you can say that they are speaking, for example, pidgin English or pidgin Italian.
+		The restaurant owner could only speak pidgin English
+	English, French, etc. when it is spoken in a simple way by someone who does not speak that language well:
+		"He come here?" he asked in pidgin English.
