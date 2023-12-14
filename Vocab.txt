@@ -17,15 +17,19 @@ salvation:
   In some religions, salvation is the state of complete belief in God that will save those who believe from the punishment of God for evil or immoral acts.
 
 rebar:
-  steel in the form of bars or a mesh (= wires that cross over each other), put inside concrete to make it stronger:
-    The concrete is reinforced with steel rebar.
-
-  Inspectors surveyed both levels of the structure, looking for exposed rebar, loose bits of concrete, or cracks.
+	steel in the form of bars or a mesh (= wires that cross over each other), put inside concrete to make it stronger:
+		The concrete is reinforced with steel rebar.
+		Inspectors surveyed both levels of the structure, looking for exposed rebar, loose bits of concrete, or cracks.
 
   Fewer examples
     Chunks of concrete are missing in spots, exposing rebar.
     The earthquakes leveled concrete and rebar.
     I saw rusted rebar coming through the concrete.
+
+Loose bits:
+	A rattle is a baby's toy with loose bits inside which make a noise when the baby shakes it
+	The loose bits of mortar get washed down by the rain, and the bits that aren't so loose turn to powder as they dry and fall down. 
+	There's a piece of fluff on your jacket.
 
 subjugates:
   If someone subjugates a group of people, they take complete control of them, especially by defeating them in a war.
@@ -86,6 +90,7 @@ sun beating down:
   The relentless sun beating down, our initially purposeful stride declines to a sporadic meander as we ascend the steps.
   To be trapped all day inside this costume with the sun beating down on him may be hell.
   With the sun beating down in 36 degree Celsius weather, I was worried for Kelly with her complexion.
+
 parching:
   The sun beat down, parching the already dry fields.
 
