@@ -1,0 +1,136 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace BASE64
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnConvert_Click(object sender, EventArgs e)
+        {
+            string fpath = txtConvert.Text;
+
+            byte[] bytes = File.ReadAllBytes(fpath);
+            string file = Convert.ToBase64String(bytes);
+            File.WriteAllText(fpath + ".bin", file);
+        }
+
+        private void btnReverse_Click(object sender, EventArgs e)
+        {
+            string fpath = txtReverse.Text;
+
+            var file = File.ReadAllText(fpath);
+            var bytes = Convert.FromBase64String(file);
+            File.WriteAllBytes(fpath + ".rev", bytes);
+        }
+    }
+}
+******************************Designer file*************************************
+
+
+namespace BASE64
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.txtConvert = new System.Windows.Forms.TextBox();
+            this.btnConvert = new System.Windows.Forms.Button();
+            this.btnReverse = new System.Windows.Forms.Button();
+            this.txtReverse = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // txtConvert
+            // 
+            this.txtConvert.Location = new System.Drawing.Point(83, 29);
+            this.txtConvert.Name = "txtConvert";
+            this.txtConvert.Size = new System.Drawing.Size(551, 23);
+            this.txtConvert.TabIndex = 0;
+            // 
+            // btnConvert
+            // 
+            this.btnConvert.Location = new System.Drawing.Point(127, 110);
+            this.btnConvert.Name = "btnConvert";
+            this.btnConvert.Size = new System.Drawing.Size(75, 23);
+            this.btnConvert.TabIndex = 1;
+            this.btnConvert.Text = "Convert";
+            this.btnConvert.UseVisualStyleBackColor = true;
+            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
+            // 
+            // btnReverse
+            // 
+            this.btnReverse.Location = new System.Drawing.Point(238, 110);
+            this.btnReverse.Name = "btnReverse";
+            this.btnReverse.Size = new System.Drawing.Size(75, 23);
+            this.btnReverse.TabIndex = 3;
+            this.btnReverse.Text = "Reverse";
+            this.btnReverse.UseVisualStyleBackColor = true;
+            this.btnReverse.Click += new System.EventHandler(this.btnReverse_Click);
+            // 
+            // txtReverse
+            // 
+            this.txtReverse.Location = new System.Drawing.Point(83, 71);
+            this.txtReverse.Name = "txtReverse";
+            this.txtReverse.Size = new System.Drawing.Size(551, 23);
+            this.txtReverse.TabIndex = 2;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 165);
+            this.Controls.Add(this.btnReverse);
+            this.Controls.Add(this.txtReverse);
+            this.Controls.Add(this.btnConvert);
+            this.Controls.Add(this.txtConvert);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox txtConvert;
+        private System.Windows.Forms.Button btnConvert;
+        private System.Windows.Forms.Button btnReverse;
+        private System.Windows.Forms.TextBox txtReverse;
+    }
+}
