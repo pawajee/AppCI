@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript async / await</h1>
+<h2 id="demo"></h2>
+<h2 id="msg"></h2>
+<h2 id="msg2"></h2>
+<p>Wait 3 seconds (3000 milliseconds) for this page to change.</p>
+
+<script>
+async function myDisplay() {
+//await new Promise((resolve, reject) => setTimeout(resolve, 3000));
+
+  //let myPromise = new Promise(function(resolve) {
+  //  setTimeout(function() {resolve("I love You !!");}, 3000);
+  //});
+  
+ var prm=  await new Promise(function(resolve) {
+    setTimeout(function() {resolve("I love You !!");}, 3000);
+  });
+  
+  document.querySelector('#msg2').innerHTML='msg2 Execution ended';
+  return prm;
+}
+
+myDisplay().then((msg)=>{document.getElementById("demo").innerHTML=msg;});
+document.querySelector('#msg').innerHTML='msg Execution ended';
+</script>
+
+</body>
+</html>
