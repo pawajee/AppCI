@@ -1,0 +1,1 @@
+https://github.com/dodyg/practical-aspnetcore/tree/net8.0
