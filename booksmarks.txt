@@ -1,1 +1,12 @@
 https://github.com/dodyg/practical-aspnetcore/tree/net8.0
+https://github.com/pklejnowski/angular_core
+
+
+https://www.codeproject.com/Tips/1189201/Adding-Angular-Material-in-ASP-NET-Core-Angular-SP
+https://stackoverflow.com/questions/64146799/how-to-use-angular-material-components-specifically-the-slider-in-an-asp-net-c
+
+https://www.ebenmonney.com/shop/
+https://www.ebenmonney.com/product/quickapp-pro-premium-asp-net-core-angular-template-with-angular-material/
+https://github.com/emonney/QuickApp
+
+https://volosoft.com/blog/Building-a-simple-Angular-Universal-application-with-ASP.NET-Boi
