@@ -2,10 +2,12 @@ https://medium.com/@kerimkkara/authentication-and-authorization-in-asp-net-core-
 https://www.devleader.ca/2023/07/31/plugin-architecture-in-asp-net-core-how-to-master-it/
 https://github.com/VeritasSoftware/AspNetCore.Security.Jwt/tree/master
 
+
+
 https://github.com/dodyg/practical-aspnetcore/tree/net8.0
 https://github.com/pklejnowski/angular_core
 
-
+https://bharatdwarkani.medium.com/top-3-open-source-asp-net-core-based-e-commerce-web-applications-9e2e8222e3ac
 
 https://www.codeproject.com/Tips/1189201/Adding-Angular-Material-in-ASP-NET-Core-Angular-SP
 https://stackoverflow.com/questions/64146799/how-to-use-angular-material-components-specifically-the-slider-in-an-asp-net-c
@@ -16,6 +18,12 @@ https://github.com/emonney/QuickApp
 
 https://volosoft.com/blog/Building-a-simple-Angular-Universal-application-with-ASP.NET-Boi
 
+Architecture:
+  https://www.devleader.ca/2023/10/09/from-chaos-to-cohesion-how-to-organize-code-for-vertical-slices/
+
+ASP Boilerplate:
+  https://github.com/yusufyilmazfr/Asmin/tree/master
+  https://github.com/aliyasindogan/ECommerceProjectWithWebAPI
 
 NOP Commerce:
 https://learn.microsoft.com/en-us/shows/on-dotnet/the-architecture-behind-the-nopcommerce-ecommerce-platform
@@ -35,3 +43,7 @@ auth:
 https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-8.0&tabs=visual-studio
 https://blog.upcoding.fr/microservices-in-a-monorepo/
 https://docs2.govirto.com/fundamentals/make-secure-webapi/
+
+
+DB ERD:
+https://sqlflow.gudusoft.com/#/
