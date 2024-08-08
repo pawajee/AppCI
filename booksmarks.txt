@@ -1,5 +1,10 @@
+https://medium.com/@kerimkkara/authentication-and-authorization-in-asp-net-core-a-comprehensive-guide-dfb8fb806ac7
+https://www.devleader.ca/2023/07/31/plugin-architecture-in-asp-net-core-how-to-master-it/
+https://github.com/VeritasSoftware/AspNetCore.Security.Jwt/tree/master
+
 https://github.com/dodyg/practical-aspnetcore/tree/net8.0
 https://github.com/pklejnowski/angular_core
+
 
 
 https://www.codeproject.com/Tips/1189201/Adding-Angular-Material-in-ASP-NET-Core-Angular-SP
@@ -10,3 +15,23 @@ https://www.ebenmonney.com/product/quickapp-pro-premium-asp-net-core-angular-tem
 https://github.com/emonney/QuickApp
 
 https://volosoft.com/blog/Building-a-simple-Angular-Universal-application-with-ASP.NET-Boi
+
+
+NOP Commerce:
+https://learn.microsoft.com/en-us/shows/on-dotnet/the-architecture-behind-the-nopcommerce-ecommerce-platform
+https://www.nopcommerce.com/en/boards/topic/41014/beginners-guide-to-nopcommerce-plugin-development-aspnet-mvc-based-e-commerce-solution?__cf_chl_tk=xDpENjxIGCvVSJyxOJqJGRgf7ze7nFZkDz4ohrH_0bQ-1723137534-0.0.1.1-4863
+
+Understanding Middlewares:
+  https://www.c-sharpcorner.com/article/overview-of-middleware-in-asp-net-core/
+  https://www.scholarhat.com/tutorial/aspnet/middleware-custom-pipeline
+
+List services:
+https://ardalis.com/how-to-list-all-services-available-to-an-asp-net-core-app/
+
+Modular:
+https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer
+
+auth:
+https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-8.0&tabs=visual-studio
+https://blog.upcoding.fr/microservices-in-a-monorepo/
+https://docs2.govirto.com/fundamentals/make-secure-webapi/
