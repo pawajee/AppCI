@@ -8,6 +8,8 @@ https://docs.servicestack.net/architecture-overview#implementation
 Basic Apps:
 https://www.red-gate.com/simple-talk/featured/building-an-angularjs-application-with-asp-net-core/
 https://volosoft.com/blog/Building-a-simple-Angular-Universal-application-with-ASP.NET-Boi
+https://github.com/dodyg/practical-aspnetcore/tree/net8.0
+https://github.com/pklejnowski/angular_core
 Query for above: start up template for asp.net core with angular material
 
 https://github.com/dodyg/practical-aspnetcore/tree/net8.0
