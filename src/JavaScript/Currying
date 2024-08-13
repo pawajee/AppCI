@@ -1,0 +1,25 @@
+//for partial calling
+function curry(func) {
+
+  return function curried(...args) {
+    if (args.length >= func.length) {
+      return func.apply(this, args);
+    } else {
+      return function(...args2) {
+        return curried.apply(this, args.concat(args2));
+      }
+    }
+  };
+
+}
+//Usage examples:
+
+function sum(a, b, c) {
+  return a + b + c;
+}
+
+let curriedSum = curry(sum);
+
+var p=curriedSum(1)( 2 ); // 6, still callable normally
+console.log(p(5));
+console.log(p(10));
