@@ -1,0 +1,22 @@
+https://www.toptal.com/software/definitive-guide-to-datetime-manipulation#:~:text=If%20you%20instead%20want%20to,passed%20since%20January%201%2C%201970.
+
+now.toLocaleTimeString()
+"4:21:38 AM"	Display localized version of only time
+now.toLocaleTimeString(undefined, {
+    hour:   '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+});
+"04:21:38 AM"	Display localized time based on options provided
+now.toLocaleString()
+"7/22/2016, 4:21:38 AM"	Display date and time for user's locale
+now.toLocaleString(undefined, {
+    day:    'numeric',
+    month:  'numeric',
+    year:   'numeric',
+    hour:   '2-digit',
+    minute: '2-digit',
+});
+"7/22/2016, 04:21 AM"	Display localized date and time based on options provided
+
+
