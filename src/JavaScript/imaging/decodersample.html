@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="div-video-container">
+        <video class="dbrScanner-existingVideo" src="barcode.webm"></video>
+    </div>
+    <!-- Please visit https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dbr&package=js to get a trial license. -->
+    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-javascript-barcode@9.6.42/dist/dbr.js" data-productKeys="PRODUCT-KEYS"></script>
+    <script>
+        let scanner = null;
+        (async()=>{
+            scanner = await Dynamsoft.DBR.BarcodeScanner.createInstance();
+            await scanner.setUIElement(document.getElementById('div-video-container'));
+            scanner.onFrameRead = results => {console.log(results);};
+            scanner.onUnduplicatedRead = (txt, result) => {alert(txt);};
+            await scanner.show();
+        })();
+    </script>
