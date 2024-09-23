@@ -1,0 +1,6 @@
+references:
+https://github.com/nimiq/qr-scanner/blob/master/src/qr-scanner.ts
+https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getDisplayMedia
+
+navigator.mediaDevices.enumerateDevices()
+navigator.mediaDevices.getDisplayMedia()
