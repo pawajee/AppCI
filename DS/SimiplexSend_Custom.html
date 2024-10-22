@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simplex Send Demo</title>
+    <meta name="description" content="DisplaySocket.js simplex send demo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+<body>
+
+    <script src="displaysocket.js"></script>
+	<div>
+    <div style='margin:15px;background:black;' id="writer-output"></div>
+	<button onclick="displaySocket.nextVideoSource();">Next camera</button>
+    <input id="file-input" type="file">&nbsp;&nbsp;&nbsp; <span id="statistics"></span>
+	<input type="text" name="selectedSlices" id="selectedSlices" ></input>
+	</div>
+    <script>
+        /*
+        // shake the output to prevent getting stuck when camera not moving
+        var outputElement = document.getElementById('writer-output');
+        setInterval(function() {
+            var a = 20;
+            outputElement.style.marginLeft = 5 + (Math.random() + a) + 'px';
+            outputElement.style.marginTop  = 5 + (Math.random() + a) + 'px';
+        }, 100);
+        */
+		var selSlices=[], curSelSlice=0;
+		function __getSelectedSlice(cSlice){
+			if(selSlices.length > 0)
+			{
+				ret= selSlices[curSelSlice];
+				curSelSlice++;
+				if(curSelSlice==selSlices.length)
+				{
+					curSelSlice=0;
+				}
+				return ret-1;
+			}
+			else
+			{
+				return cSlice;
+			}
+		}
+		
+		var stats= document.getElementById("statistics");
+		var repeat=1, lastSlice=0;
+		function __onNextSlice(currentSliceNumber, totalSlices){
+			if(lastSlice > currentSliceNumber)
+			{
+				repeat++;
+			}
+			lastSlice=currentSliceNumber;
+			stats.innerText=`Current Slice: ${currentSliceNumber} - Total Slices: ${totalSlices} - ${repeat}`;
+		}
+        var outputElement = document.getElementById('writer-output');
+        var size = Math.min(window.innerHeight, window.innerWidth);
+        console.log('sizes',window.innerHeight, window.innerWidth);
+        size -= parseInt(outputElement.style.margin) * 4;
+        console.log('size:', size);
+        outputElement.style.width = size + 'px';
+        outputElement.style.height = size + 'px';
+        var fileInput = document.getElementById('file-input');
+        var displaySocket = new DisplaySocket({
+            output: outputElement,
+        });
+
+        /*
+        // handy if you don't want to select a file every time
+        var sendData = '';
+        for(var i = 0; i < 100; i++) {
+            sendData += i + ' ';
+        }
+        displaySocket.send(sendData);
+        /**/
+
+        fileInput.addEventListener('change', function(e) {
+            var file = e.target.files[0];
+            var reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = function(e) {
+				var slices=document.getElementById("selectedSlices").value;
+				if(slices.trim()!="")
+				{
+			      selSlices= slices.split(",");
+				}
+                displaySocket.send(reader.result);
+            }
+        });
+    </script>
+</body>
+</html>
