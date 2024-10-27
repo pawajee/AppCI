@@ -41,6 +41,10 @@ namespace QRCodeGen
             this.txtInterval = new System.Windows.Forms.TextBox();
             this.lblCurrentFileName = new System.Windows.Forms.Label();
             this.txtChunkSize = new System.Windows.Forms.TextBox();
+            this.txtMissingCodesFilePath = new System.Windows.Forms.TextBox();
+            this.btnStartMissingCodeGen = new System.Windows.Forms.Button();
+            this.txtMissingCodeFilesPath = new System.Windows.Forms.TextBox();
+            this.btnStop = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,16 +120,16 @@ namespace QRCodeGen
             // 
             // txtInterval
             // 
-            this.txtInterval.Location = new System.Drawing.Point(247, 39);
+            this.txtInterval.Location = new System.Drawing.Point(327, 40);
             this.txtInterval.Name = "txtInterval";
             this.txtInterval.Size = new System.Drawing.Size(46, 20);
             this.txtInterval.TabIndex = 6;
-            this.txtInterval.Text = "200";
+            this.txtInterval.Text = ".3";
             // 
             // lblCurrentFileName
             // 
             this.lblCurrentFileName.AutoSize = true;
-            this.lblCurrentFileName.Location = new System.Drawing.Point(299, 43);
+            this.lblCurrentFileName.Location = new System.Drawing.Point(379, 44);
             this.lblCurrentFileName.Name = "lblCurrentFileName";
             this.lblCurrentFileName.Size = new System.Drawing.Size(35, 13);
             this.lblCurrentFileName.TabIndex = 7;
@@ -133,17 +137,55 @@ namespace QRCodeGen
             // 
             // txtChunkSize
             // 
-            this.txtChunkSize.Location = new System.Drawing.Point(197, 39);
+            this.txtChunkSize.Location = new System.Drawing.Point(277, 40);
             this.txtChunkSize.Name = "txtChunkSize";
             this.txtChunkSize.Size = new System.Drawing.Size(44, 20);
             this.txtChunkSize.TabIndex = 8;
-            this.txtChunkSize.Text = "2800";
+            this.txtChunkSize.Text = "2770";
+            // 
+            // txtMissingCodesFilePath
+            // 
+            this.txtMissingCodesFilePath.Location = new System.Drawing.Point(90, 676);
+            this.txtMissingCodesFilePath.Name = "txtMissingCodesFilePath";
+            this.txtMissingCodesFilePath.Size = new System.Drawing.Size(523, 20);
+            this.txtMissingCodesFilePath.TabIndex = 9;
+            // 
+            // btnStartMissingCodeGen
+            // 
+            this.btnStartMissingCodeGen.Location = new System.Drawing.Point(619, 673);
+            this.btnStartMissingCodeGen.Name = "btnStartMissingCodeGen";
+            this.btnStartMissingCodeGen.Size = new System.Drawing.Size(75, 23);
+            this.btnStartMissingCodeGen.TabIndex = 10;
+            this.btnStartMissingCodeGen.Text = "Gen Missing";
+            this.btnStartMissingCodeGen.UseVisualStyleBackColor = true;
+            this.btnStartMissingCodeGen.Click += new System.EventHandler(this.btnStartMissingCodeGen_Click);
+            // 
+            // txtMissingCodeFilesPath
+            // 
+            this.txtMissingCodeFilesPath.Location = new System.Drawing.Point(90, 702);
+            this.txtMissingCodeFilesPath.Name = "txtMissingCodeFilesPath";
+            this.txtMissingCodeFilesPath.Size = new System.Drawing.Size(523, 20);
+            this.txtMissingCodeFilesPath.TabIndex = 11;
+            // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(187, 38);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(83, 23);
+            this.btnStop.TabIndex = 12;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1171, 778);
+            this.Controls.Add(this.btnStop);
+            this.Controls.Add(this.txtMissingCodeFilesPath);
+            this.Controls.Add(this.btnStartMissingCodeGen);
+            this.Controls.Add(this.txtMissingCodesFilePath);
             this.Controls.Add(this.txtChunkSize);
             this.Controls.Add(this.lblCurrentFileName);
             this.Controls.Add(this.txtInterval);
@@ -177,6 +219,10 @@ namespace QRCodeGen
         private System.Windows.Forms.ColumnHeader IsLoaded;
         private System.Windows.Forms.Label lblCurrentFileName;
         private System.Windows.Forms.TextBox txtChunkSize;
+        private System.Windows.Forms.TextBox txtMissingCodesFilePath;
+        private System.Windows.Forms.Button btnStartMissingCodeGen;
+        private System.Windows.Forms.TextBox txtMissingCodeFilesPath;
+        private System.Windows.Forms.Button btnStop;
     }
 }
 
