@@ -41,10 +41,11 @@ namespace QRCodeGen
             this.txtInterval = new System.Windows.Forms.TextBox();
             this.lblCurrentFileName = new System.Windows.Forms.Label();
             this.txtChunkSize = new System.Windows.Forms.TextBox();
-            this.txtMissingCodesFilePath = new System.Windows.Forms.TextBox();
+            this.txtMissingCodesListFile = new System.Windows.Forms.TextBox();
             this.btnStartMissingCodeGen = new System.Windows.Forms.Button();
             this.txtMissingCodeFilesPath = new System.Windows.Forms.TextBox();
             this.btnStop = new System.Windows.Forms.Button();
+            this.lblQrCodeNo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -131,9 +132,9 @@ namespace QRCodeGen
             this.lblCurrentFileName.AutoSize = true;
             this.lblCurrentFileName.Location = new System.Drawing.Point(379, 44);
             this.lblCurrentFileName.Name = "lblCurrentFileName";
-            this.lblCurrentFileName.Size = new System.Drawing.Size(35, 13);
+            this.lblCurrentFileName.Size = new System.Drawing.Size(54, 13);
             this.lblCurrentFileName.TabIndex = 7;
-            this.lblCurrentFileName.Text = "label1";
+            this.lblCurrentFileName.Text = "File Name";
             // 
             // txtChunkSize
             // 
@@ -143,12 +144,13 @@ namespace QRCodeGen
             this.txtChunkSize.TabIndex = 8;
             this.txtChunkSize.Text = "2770";
             // 
-            // txtMissingCodesFilePath
+            // txtMissingCodesListFile
             // 
-            this.txtMissingCodesFilePath.Location = new System.Drawing.Point(90, 676);
-            this.txtMissingCodesFilePath.Name = "txtMissingCodesFilePath";
-            this.txtMissingCodesFilePath.Size = new System.Drawing.Size(523, 20);
-            this.txtMissingCodesFilePath.TabIndex = 9;
+            this.txtMissingCodesListFile.Location = new System.Drawing.Point(90, 676);
+            this.txtMissingCodesListFile.Name = "txtMissingCodesListFile";
+            this.txtMissingCodesListFile.Size = new System.Drawing.Size(523, 20);
+            this.txtMissingCodesListFile.TabIndex = 9;
+            this.txtMissingCodesListFile.TextChanged += new System.EventHandler(this.txtMissingCodesListFile_TextChanged);
             // 
             // btnStartMissingCodeGen
             // 
@@ -177,15 +179,25 @@ namespace QRCodeGen
             this.btnStop.UseVisualStyleBackColor = true;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
+            // lblQrCodeNo
+            // 
+            this.lblQrCodeNo.AutoSize = true;
+            this.lblQrCodeNo.Location = new System.Drawing.Point(593, 44);
+            this.lblQrCodeNo.Name = "lblQrCodeNo";
+            this.lblQrCodeNo.Size = new System.Drawing.Size(57, 13);
+            this.lblQrCodeNo.TabIndex = 13;
+            this.lblQrCodeNo.Text = "chunks no";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1171, 778);
+            this.Controls.Add(this.lblQrCodeNo);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.txtMissingCodeFilesPath);
             this.Controls.Add(this.btnStartMissingCodeGen);
-            this.Controls.Add(this.txtMissingCodesFilePath);
+            this.Controls.Add(this.txtMissingCodesListFile);
             this.Controls.Add(this.txtChunkSize);
             this.Controls.Add(this.lblCurrentFileName);
             this.Controls.Add(this.txtInterval);
@@ -219,10 +231,11 @@ namespace QRCodeGen
         private System.Windows.Forms.ColumnHeader IsLoaded;
         private System.Windows.Forms.Label lblCurrentFileName;
         private System.Windows.Forms.TextBox txtChunkSize;
-        private System.Windows.Forms.TextBox txtMissingCodesFilePath;
+        private System.Windows.Forms.TextBox txtMissingCodesListFile;
         private System.Windows.Forms.Button btnStartMissingCodeGen;
         private System.Windows.Forms.TextBox txtMissingCodeFilesPath;
         private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.Label lblQrCodeNo;
     }
 }
 
