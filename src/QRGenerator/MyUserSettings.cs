@@ -1,4 +1,4 @@
-MyUserSettings.csusing System;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -41,7 +41,7 @@ namespace QRCodeGen
             }
         }
         [UserScopedSetting()]
-        [DefaultSettingValue("2800")]
+        [DefaultSettingValue("2770")]
         public string txtChunkSize
         {
             get
@@ -53,6 +53,37 @@ namespace QRCodeGen
             set
             {
                 this["txtChunkSize"] = value;
+            }
+        }
+        
+        [UserScopedSetting()]
+        [DefaultSettingValue("")]
+        public string txtMissingCodeFilesPath
+        {
+            get
+            {
+                var val = this["txtMissingCodeFilesPath"] == null ? "" : this["txtMissingCodeFilesPath"].ToString();
+
+                return val.ToString();
+            }
+            set
+            {
+                this["txtMissingCodeFilesPath"] = value;
+            }
+        }
+        [UserScopedSetting()]
+        [DefaultSettingValue("")]
+        public string txtMissingCodesListFile
+        {
+            get
+            {
+                var val = this["txtMissingCodesListFile"] == null ? "" : this["txtMissingCodesListFile"].ToString();
+
+                return val.ToString();
+            }
+            set
+            {
+                this["txtMissingCodesListFile"] = value;
             }
         }
     }
