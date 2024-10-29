@@ -40,6 +40,9 @@ namespace QRCodeGen
             txtInterval.Text = mus.txtInterval;
             txtFileName.Text = mus.txtFileName;
             txtChunkSize.Text = mus.txtChunkSize;
+
+            txtMissingCodeFilesPath.Text = mus.txtMissingCodeFilesPath;
+            txtMissingCodesListFile.Text = mus.txtMissingCodesListFile;
         }
         //async void LoadNextFiles(string fileName)
         //{
@@ -139,26 +142,34 @@ namespace QRCodeGen
             int.TryParse(txtChunkSize.Text,out chunkSize);
             return await Task.Run(() =>
              {
-                 if (File.Exists(filePath))
+                 if (File.Exists(filePath) && Path.GetExtension( filePath).ToLower() !=".base64")
                  {
                      fileBase64 = Convert.ToBase64String(File.ReadAllBytes(filePath));
+                    //File.WriteAllText(filePath + ".base64",fileBase64);
                      fileLength = fileBase64.Length;
-                     var noOfChunks = Math.Floor((decimal)(fileLength / chunkSize));
+                     var noOfChunks =(int) Math.Floor((decimal)(fileLength / chunkSize))+1;
 
-                     var chunks = Enumerable.Range(0, fileBase64.Length / chunkSize)
-                                .Select(x => fileBase64.Substring(x * chunkSize, chunkSize));
+                     var chunks = Enumerable.Range(0, noOfChunks)
+                                .Select((x) =>
+                                {
+                                    var res = x != (noOfChunks-1) ? fileBase64.Substring(x * chunkSize, chunkSize) :
+                                                    fileBase64.Substring(x * chunkSize);
+                                        return res;
+                                });
 
-                    //for (var i = 0; i < noOfChunks; i++) { 
-
-                    //}
-                    var arrQrCodes = new Bitmap[(int)noOfChunks + 1];
+                     //StringBuilder sb = new StringBuilder();
+                     //foreach (var chunk in chunks)
+                     //{
+                     //    sb.Append(chunk);
+                     //}
+                     var arrQrCodes = new Bitmap[(int)noOfChunks + 1];
                      int i = 0;
                      var checkSum = getCheckSum(fileBase64);
                      foreach (var chunk in chunks)
                      {
                          if (i == 0)
                          {
-                             var data = i.ToString() + '/' + ((int)noOfChunks - 1) + '/' + Path.GetFileName(filePath) + '/' + checkSum + '$';
+                             var data = i.ToString() + '/' + ((int)noOfChunks ) + '/' + Path.GetFileName(filePath) + '/' + checkSum + '$';
                              arrQrCodes[i++] = GenerateQRCode(data, QrCodeWidth, QrCodeHeight, Path.GetFileName(filePath));
                          }
                         var chunkPart = i.ToString() + '/' + Path.GetFileName(filePath) + '/' + getCheckSum(chunk) + '$' + chunk;
@@ -225,76 +236,7 @@ namespace QRCodeGen
             }
             return qrImage;
         }
-        async void  LoadMissingChunkFiles() {
-            var fileName = txtMissingCodeFilesPath.Text;
-            if (!string.IsNullOrWhiteSpace(fileName) && File.Exists(fileName)) {
-                var missingFiles = File.ReadAllLines(fileName);
-                foreach (var file in missingFiles) {
-                    var arrMissingInfo = file.Split(':');
-                    if (file.Length > 1) {
-                        var arrMissingChunks = arrMissingInfo[1].Split(',');
-                        var missingFileName = arrMissingInfo[0];
-                       var qrCodes= FileMissingChunks(missingFileName, arrMissingChunks);
-                        var intvl = txtInterval.Text;
-                        if (string.IsNullOrWhiteSpace(intvl)) { intvl = "0.2"; };
-                        foreach(var qrCode in qrCodes) {
-                            await Task.Delay(TimeSpan.FromSeconds(Convert.ToDouble(intvl)));
-                            pictureBox1.Image = qrCode;
-                        }
-                    }
 
-                }
-            }
-        }
-        List<Bitmap> FileMissingChunks(string filePath,string[] arrMissingChunks)
-        {
-            string fileBase64;
-            int fileLength;
-            chunkSize = 2770;
-            int.TryParse(txtChunkSize.Text, out chunkSize);
-
-            if (File.Exists(filePath))
-            {
-                fileBase64 = Convert.ToBase64String(File.ReadAllBytes(filePath));
-                fileLength = fileBase64.Length;
-                var noOfChunks = Math.Floor((decimal)(fileLength / chunkSize));
-
-                var chunks = Enumerable.Range(0, fileBase64.Length / chunkSize)
-                           .Select(x => fileBase64.Substring(x * chunkSize, chunkSize)).ToArray();
-
-                //for (var i = 0; i < noOfChunks; i++) { 
-
-                //}
-                //var arrQrCodes = new Bitmap[(int)noOfChunks + 1];
-                List<Bitmap> arrQrCodes = new List<Bitmap>();
-                int i = 0;
-                var checkSum = getCheckSum(fileBase64);
-                foreach (var strChunkNo in arrMissingChunks)
-                {
-                    //if (i == 0)
-                    //{
-                    //    var data = i.ToString() + '/' + ((int)noOfChunks - 1) + '/' + Path.GetFileName(filePath) + '/' + checkSum + '$';
-                    //    arrQrCodes[i++] = GenerateQRCode(data, QrCodeWidth, QrCodeHeight, Path.GetFileName(filePath));
-                    //}
-                    //else
-                    //{
-                    //  chunk
-                    int chunkNo = -1;
-                    if (int.TryParse(strChunkNo, out chunkNo))
-                    {
-                        var chunk = chunks[chunkNo];
-                        var chunkPart = chunkNo.ToString() + '/' + Path.GetFileName(filePath) + '/' + getCheckSum(chunk) + '$' + chunk;
-                        arrQrCodes[chunkNo] = GenerateQRCode(chunkPart, QrCodeWidth, QrCodeHeight, Path.GetFileName(filePath));
-                    }
-                    // }
-
-                     Application.DoEvents();
-                }
-                return arrQrCodes;
-            }
-            return null;
-         
-        }
         private void btnFetchFileList_Click(object sender, EventArgs e)
         {
             btnFetchFileList.Enabled = false;
@@ -309,6 +251,10 @@ namespace QRCodeGen
                     listView1.Items.Clear();
                     foreach (var cfile in files)
                     {
+                        if(Path.GetExtension(cfile).ToLower() == ".base64"){
+                            continue;
+
+                        }
                         //byte[] bytes = File.ReadAllBytes(Path.Combine(fpath, cfile));
                         //string file = "!@#" + Convert.ToBase64String(bytes);
                         //File.WriteAllText(Path.Combine(fpath, cfile) + ".base64.txt", file);
@@ -347,7 +293,7 @@ namespace QRCodeGen
             List<CancellationTokenSource> arrCancel = new List<CancellationTokenSource>();
             for (var i = 0; i < listView1.Items.Count; i++)
             {
-
+               
 
                 var filePath = listView1.Items[i].SubItems[0].Text; // get current item
                 if (i == 0)
@@ -393,23 +339,28 @@ namespace QRCodeGen
              //   imgData.Add(fileName, image);
                 setFileLoadStatus(fileName);
                 lblCurrentFileName.Text = fileName;
+                var intvl = txtInterval.Text;
+                if (string.IsNullOrWhiteSpace(intvl)) { intvl = "0.2"; };
                 for (var iLoop = 0; iLoop < bitmaps.Length; iLoop++)
                 {
 
-                    var intvl = txtInterval.Text;
-                    if (string.IsNullOrWhiteSpace(intvl)) { intvl = "0.2"; };
 
-                    await Task.Delay(TimeSpan.FromSeconds(Convert.ToDouble(intvl)));
+
+                    
                     pictureBox1.Image = bitmaps[iLoop];
+                    pictureBox1.Refresh();
+                    await Task.Delay(TimeSpan.FromSeconds(Convert.ToDouble(intvl)));
                     if (stopGeneratingQrCode) {
                         cancelTasks(arrTasks, arrCancel);
                         return;
                     }
+                    lblQrCodeNo.Text = iLoop.ToString() +" / "+ (bitmaps.Length-1);
                    // bitmaps[iLoop].Dispose();
                 }
+                await Task.Delay(TimeSpan.FromSeconds(Convert.ToDouble(intvl)));
                 //arrTasks[0] = arrTasks[1];
-                
-               
+
+
                 //var NoOfQRCodes = bitmaps.Length;
                 //var counter = 0;
                 //showTimer.Tick += (s, e) => {
@@ -420,6 +371,7 @@ namespace QRCodeGen
                 //    }
                 //};
             }
+            clearPictureBox();
             btnFetchFileList.Enabled = true;
         }
 
@@ -446,9 +398,11 @@ namespace QRCodeGen
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-           mus.txtInterval = txtInterval.Text;
-           mus.txtFileName = txtFileName.Text;
+            mus.txtInterval = txtInterval.Text;
+            mus.txtFileName = txtFileName.Text;
             mus.txtChunkSize = txtChunkSize.Text;
+            mus.txtMissingCodeFilesPath = txtMissingCodeFilesPath.Text;
+            mus.txtMissingCodesListFile = txtMissingCodesListFile.Text;
             mus.Save();
         }
 
@@ -464,16 +418,122 @@ namespace QRCodeGen
 
         private void btnStartMissingCodeGen_Click(object sender, EventArgs e)
         {
+            LoadMissingChunkFiles();
+        }
+        async void LoadMissingChunkFiles()
+        {
+            var fileName = txtMissingCodesListFile.Text.Trim();
+
+            if (!string.IsNullOrWhiteSpace(fileName) && File.Exists(fileName))
+            {
+                var missingFiles = File.ReadAllLines(fileName);
+
+                foreach (var file in missingFiles)
+                {
+                    if (!string.IsNullOrWhiteSpace(file))
+                    {
+                        var arrMissingInfo = file.Split(':');
+                        if (file.Length > 1)
+                        {
+                            var arrMissingChunks = arrMissingInfo[1].Split(',');
+                            var missingFileName = arrMissingInfo[0].Trim();
+                            lblCurrentFileName.Text = missingFileName;
+                          //  Application.DoEvents();
+                            var qrCodes = FileMissingChunks(missingFileName, arrMissingChunks);
+                            var intvl = txtInterval.Text;
+                            if (qrCodes != null)
+                            {
+                                if (string.IsNullOrWhiteSpace(intvl)) { intvl = "0.2"; };
+                                var iLoop = 0;
+                                foreach (var qrCode in qrCodes)
+                                {
+                                    await Task.Delay(TimeSpan.FromSeconds(Convert.ToDouble(intvl)));
+                                    lblQrCodeNo.Text = arrMissingChunks[iLoop].ToString();
+                                    pictureBox1.Image = qrCode;
+                                    iLoop++;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                clearPictureBox();
+
+            }
+        }
+        List<Bitmap> FileMissingChunks(string filePath, string[] arrMissingChunks)
+        {
+            string fileBase64;
+            int fileLength;
+            chunkSize = 2770;
+            int.TryParse(txtChunkSize.Text.Trim(), out chunkSize);
+
+            filePath = Path.Combine(txtMissingCodeFilesPath.Text.Trim(), filePath);
+            if (File.Exists(filePath))
+            {
+                fileBase64 = Convert.ToBase64String(File.ReadAllBytes(filePath));
+                fileLength = fileBase64.Length;
+                var noOfChunks = (int)Math.Floor((decimal)(fileLength / chunkSize)) + 1;
+
+                var chunks = Enumerable.Range(0, noOfChunks)
+                           .Select((x) =>
+                           {
+                               var res = x != (noOfChunks - 1) ? fileBase64.Substring(x * chunkSize, chunkSize) :
+                                               fileBase64.Substring(x * chunkSize);
+                               return res;
+                           }).ToList();
+
+                //for (var i = 0; i < noOfChunks; i++) { 
+
+                //}
+                //var arrQrCodes = new Bitmap[(int)noOfChunks + 1];
+                List<Bitmap> arrQrCodes = new List<Bitmap>();
+                int i = 0;
+                var checkSum = getCheckSum(fileBase64);
+                foreach (var strChunkNo in arrMissingChunks)
+                {
+                    int chunkNo = -1;
+                    if (int.TryParse(strChunkNo.Trim(), out chunkNo))
+                    {
+                        var chunk = chunks[chunkNo-1];
+                        var chunkPart = chunkNo.ToString() + '/' + Path.GetFileName(filePath) + '/' + getCheckSum(chunk) + '$' + chunk;
+                        arrQrCodes.Add( GenerateQRCode(chunkPart, QrCodeWidth, QrCodeHeight, Path.GetFileName(filePath)));
+                    }
+                    // }
+
+                    Application.DoEvents();
+                }
+
+                return arrQrCodes;
+            }
+            return null;
 
         }
-
+        
         private void btnStop_Click(object sender, EventArgs e)
         {
             stopGeneratingQrCode = true;
             btnFetchFileList.Enabled = true;
+            clearPictureBox();
+        }
+        void clearPictureBox() {
+            if (pictureBox1.Image == null) {
+                return;
+            }
             pictureBox1.Image.Dispose();
             pictureBox1.Image = null;
             pictureBox1.Update();
+            pictureBox1.Refresh();
+            Application.DoEvents();
+            pictureBox1.Update();
+            pictureBox1.Refresh();
+        }
+        private void txtMissingCodesListFile_TextChanged(object sender, EventArgs e)
+        {
+            if (File.Exists(txtMissingCodesListFile.Text.Trim())) {
+                txtMissingCodeFilesPath.Text = Path.GetDirectoryName( txtMissingCodesListFile.Text.Trim());
+            }
         }
     }
 }
