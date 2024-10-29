@@ -1,0 +1,39 @@
+       // Check if the input file path is provided
+        // if (args.Length < 1)
+        // {
+        //     Console.WriteLine("Usage: dotnet run <base64_file_path>");
+        //     return;
+        // }
+
+        string base64FilePath = @"D:\decode\base64Tobin\MuhammadQasim_CivilId_2024.z01.base64";
+
+        // Validate the input file
+        if (!File.Exists(base64FilePath))
+        {
+            Console.WriteLine("The specified file does not exist.");
+            return;
+        }
+
+        try
+        {
+            // Read the Base64 string from the file
+            string base64String = File.ReadAllText(base64FilePath);
+
+            // Convert Base64 string to byte array
+            byte[] fileBytes = Convert.FromBase64String(base64String);
+
+            // Create the output file name by removing the .base64 extension
+            string outputFilePath = Path.ChangeExtension(base64FilePath, null);
+
+            // Write byte array to the output file
+            File.WriteAllBytes(outputFilePath, fileBytes);
+            Console.WriteLine($"File written successfully: {outputFilePath}");
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("The provided file does not contain a valid Base64 string.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred: {ex.Message}");
+        }
