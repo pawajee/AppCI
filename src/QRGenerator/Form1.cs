@@ -25,6 +25,7 @@ namespace QRCodeGen
         Dictionary<string, Bitmap[]> imgData = new Dictionary<string, Bitmap[]>();
         string currentFile;
         bool stopGeneratingQrCode = true;
+        StringBuilder missingChunksText;
         public Form1()
         {
             InitializeComponent();
@@ -165,6 +166,7 @@ namespace QRCodeGen
                      var arrQrCodes = new Bitmap[(int)noOfChunks + 1];
                      int i = 0;
                      var checkSum = getCheckSum(fileBase64);
+                     StringBuilder fileChunks = new StringBuilder();
                      foreach (var chunk in chunks)
                      {
                          if (i == 0)
@@ -172,17 +174,18 @@ namespace QRCodeGen
                              var data = i.ToString() + '/' + ((int)noOfChunks ) + '/' + Path.GetFileName(filePath) + '/' + checkSum + '$';
                              arrQrCodes[i++] = GenerateQRCode(data, QrCodeWidth, QrCodeHeight, Path.GetFileName(filePath));
                          }
-                        var chunkPart = i.ToString() + '/' + Path.GetFileName(filePath) + '/' + getCheckSum(chunk) + '$' + chunk;
+                        var chunkPart = i.ToString() + '/' + Path.GetFileName(filePath) + '/' + getCheckSum(chunk) + '/' + ((int)noOfChunks) + '$' + chunk;
                         arrQrCodes[i++] = GenerateQRCode(chunkPart, QrCodeWidth, QrCodeHeight, Path.GetFileName(filePath));
-
-                         if (ct.IsCancellationRequested)
-                         {
-                             // another thread decided to cancel
-                             //  Console.WriteLine("task canceled");
-                             return null;
-                         }
+                        fileChunks.Append(chunkPart + Environment.NewLine);
+                        if (ct.IsCancellationRequested)
+                        {
+                            // another thread decided to cancel
+                            //  Console.WriteLine("task canceled");
+                            return null;
+                        }
                          // Application.DoEvents();
                      }
+                     File.WriteAllText(filePath + ".base4.txt", fileChunks.ToString());
                      var tuple = new Tuple<(Bitmap[], string)>((arrQrCodes, Path.GetFileName(filePath)));
                     // var tsk = new Task<Tuple<(Bitmap[], string)>>();
                      return new Tuple<(Bitmap[], string)>((arrQrCodes, Path.GetFileName(filePath))); 
@@ -420,10 +423,11 @@ namespace QRCodeGen
         {
             LoadMissingChunkFiles();
         }
+        
         async void LoadMissingChunkFiles()
         {
             var fileName = txtMissingCodesListFile.Text.Trim();
-
+            missingChunksText = new StringBuilder();
             if (!string.IsNullOrWhiteSpace(fileName) && File.Exists(fileName))
             {
                 var missingFiles = File.ReadAllLines(fileName);
@@ -458,6 +462,7 @@ namespace QRCodeGen
 
                 }
 
+                File.WriteAllText(fileName + "chunks", missingChunksText.ToString());
                 clearPictureBox();
 
             }
@@ -497,8 +502,9 @@ namespace QRCodeGen
                     if (int.TryParse(strChunkNo.Trim(), out chunkNo))
                     {
                         var chunk = chunks[chunkNo-1];
-                        var chunkPart = chunkNo.ToString() + '/' + Path.GetFileName(filePath) + '/' + getCheckSum(chunk) + '$' + chunk;
+                        var chunkPart = chunkNo.ToString() + '/' + Path.GetFileName(filePath) + '/' + getCheckSum(chunk) + '/' + ((int)noOfChunks) + '$' + chunk;
                         arrQrCodes.Add( GenerateQRCode(chunkPart, QrCodeWidth, QrCodeHeight, Path.GetFileName(filePath)));
+                        missingChunksText.Append(chunkPart + Environment.NewLine);
                     }
                     // }
 
