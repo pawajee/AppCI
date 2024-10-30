@@ -136,7 +136,7 @@ public class Main {
                         missingSnippetNos.append(lastFileName+":" +cMissingFrames+"\r\n");
                         cMissingFrames="";
                     }
-                    lastFileName=arrFileInfo[2];
+                    lastFileName=arrFileInfo[2]+".txt";
                     output = new PrintStream(lastFileName);
                     System.out.println("New File:" + arrFileInfo[2]+", total qr codes:"+arrFileInfo[1]);
 
@@ -171,8 +171,13 @@ public class Main {
                 count++;
             }*/
         }
-        var outputMissingNos = new PrintStream("MissingNos.txt");
-        outputMissingNos.print(missingSnippetNos);
+
+       if(!missingSnippetNos.toString().trim().equals("")) {
+           File f = new File(path);
+           var outputMissingNos = new PrintStream(f.getName() + "_MissingNos.txt");
+
+           outputMissingNos.print(missingSnippetNos);
+       }
     }
     public static void captureMissingFrames(String path,String MissingFrames) throws IOException {
         // Load the OpenCV native library
@@ -232,7 +237,7 @@ public class Main {
                         cMissingFrames="";
                     }
                     lastFileName=arrFileInfo[2];
-                    output = new PrintStream(lastFileName);
+                    output = new PrintStream(lastFileName+".txt");
                     System.out.println("New File:" + arrFileInfo[2]+", total qr codes:"+arrFileInfo[1]);
 
                 }
