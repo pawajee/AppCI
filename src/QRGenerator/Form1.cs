@@ -254,7 +254,8 @@ namespace QRCodeGen
                     listView1.Items.Clear();
                     foreach (var cfile in files)
                     {
-                        if(Path.GetExtension(cfile).ToLower() == ".base64"){
+                        if(Path.GetExtension(cfile).ToLower() == ".base64" || Path.GetExtension(cfile).ToLower() == ".txt")
+                        {
                             continue;
 
                         }
